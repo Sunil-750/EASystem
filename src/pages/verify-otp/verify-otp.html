@@ -1,0 +1,31 @@
+<ion-content padding>
+  <h1 style="text-align: center">OTP Verification</h1>
+  <div>
+    <ion-list class="list">
+      <ion-item>
+        <ion-label floating >Enter OTP Here : </ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <div class="center">
+        <button ion-button   (click)="homePage()">Verify</button>
+      </div>
+      
+
+  </ion-list>
+  
+  <ion-row >
+    <ion-col style="text-align: right">
+      <button ion-button style="font-size: 10px;" clear (click)="getOtpPage()">Change Mobile Number</button>      
+    </ion-col>
+    <ion-col  style="text-align: left">
+      <button ion-button style="font-size: 10px;" clear (click)="resendOtp()" >Resend OTP</button>
+    </ion-col>
+    
+    
+  </ion-row>
+  </div>
+  
+  
+</ion-content>
+
+
